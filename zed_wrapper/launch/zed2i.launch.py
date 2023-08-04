@@ -32,7 +32,8 @@ def generate_launch_description():
             '/launch/include/zed_camera.launch.py'
         ]),
         launch_arguments={
-            'camera_model': camera_model
+            'camera_model': camera_model,
+            'depth/quality': '1'
         }.items()
     )
     
